@@ -1,0 +1,266 @@
+body {
+  background-color: blanchedalmond;
+}
+
+header {
+  background-color: rgb(233, 102, 102);
+  color: white;
+}
+
+input {
+  display: block;
+}
+.container {
+  display: grid;
+
+  grid-template-columns: 4fr 1fr 3fr;
+  grid-template-areas:
+    "basic tshirt tshirt"
+    "sectionName  .  size-design"
+    "sectionEmail . colorSection"
+    "sectionJob  sectionOther sectionOther";
+
+  gap: 20px;
+  align-items: end;
+  margin: auto;
+
+  width: 50%;
+}
+
+.other {
+  padding: 0;
+  margin: 0;
+  border: 1px solid black;
+  width: 100%;
+}
+
+.basic input {
+  padding: 10px;
+}
+
+.basic select {
+  padding: 10px;
+}
+
+.basic {
+  grid-area: basic;
+}
+
+.tshirt {
+  grid-area: tshirt;
+}
+
+.sectionName {
+  grid-area: sectionName;
+}
+
+.sectionEmail {
+  grid-area: sectionEmail;
+}
+
+.sectionJob {
+  grid-area: sectionJob;
+}
+
+.sectionOher {
+  grid-area: sectionOther;
+}
+
+.sizeSection {
+  grid-area: sizeSection;
+}
+
+.designSection {
+  grid-area: designSection;
+}
+
+.colorSection {
+  grid-area: colorSection;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.color {
+  justify-self: end;
+}
+
+.size-design {
+  grid-area: size-design;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.regactivities {
+  height: 75px;
+  width: 320px;
+  border: 1px solid black;
+  background-color: white;
+}
+
+.jsimg {
+  width: 20px;
+  height: 20px;
+}
+
+.angular {
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+}
+
+.conference {
+  display: flex;
+  flex-direction: row;
+  gap: 150px;
+  padding: 10px;
+}
+
+.jsprice {
+  text-align: right;
+}
+
+.libraries {
+  background-color: white;
+  height: 75px;
+  width: 320px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.conf {
+  padding: 10px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.react {
+  padding: 10px;
+}
+
+.conf-react {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.conf-angular {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.frameworks {
+  width: 320px;
+  height: 75px;
+  background-color: white;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.npm-workshop {
+  background-color: white;
+  height: 75px;
+  width: 320px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  gap: 120px;
+}
+
+.workshop {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.node-workshop {
+  background-color: white;
+  height: 75px;
+  width: 320px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  gap: 140px;
+}
+
+.node {
+  padding: 10px;
+}
+
+.build-tools {
+  background-color: white;
+  height: 75px;
+  width: 320px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+}
+
+.build {
+  padding: 10px;
+}
+
+.build-tools-workshop {
+  padding: 10px;
+}
+
+.express-workshop {
+  background-color: white;
+  height: 75px;
+  width: 320px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+}
+
+.container-activies {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr 1fr);
+  gap: 1rem;
+  grid-template-areas:
+    "regactivities regactivities "
+    "libraries node-workshop"
+    "frameworks build-tools"
+    "npm-workshop express-workshop";
+}
+
+.regactivities {
+  grid-area: regactivities;
+}
+
+.libraries {
+  grid-area: libraries;
+}
+
+.frameworks {
+  grid-area: frameworks;
+}
+
+.npm-workshop {
+  grid-area: npm-workshop;
+}
+
+.node-workshop {
+  grid-area: node-workshop;
+}
+
+.build-tools {
+  grid-area: build-tools;
+}
+
+.express-workshop {
+  grid-area: express-workshop;
+}
+
+.payment {
+  display: flex;
+  flex-direction: row;
+  gap: 350px;
+  padding: 10px;
+}

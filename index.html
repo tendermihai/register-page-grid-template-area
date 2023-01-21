@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <p>Register for</p>
+        <h1>Full Stack Conference</h1>
+    </header>
+
+    <p>*-required field</p>
+
+    <div class="container">
+
+
+
+
+        <h1 class="basic">Basic Info</h1>
+
+        <section class="sectionName">
+            <label for="name">Name: *</label>
+            <input type="text" name="name" class="nameField">
+        </section>
+
+        <section class="sectionEmail">
+            <label for="email">Email Address: *</label>
+            <input type="email" name="email" class="email">
+        </section>
+
+        <section class="sectionJob">
+            <label for="job">Job Role</label>
+            <select name="job" class="job">
+                <option value="role">Select Job Role</option>
+            </select>
+        </section>
+
+        <section class="sectionOher">
+            <label for="other"></label>
+            <input type="text" name="other" class="other" placeholder="Other Job Role?">
+        </section>
+
+
+        <h1 class="tshirt">T-Shirt Info</h1>
+
+        <section class="size-design">
+            <section class="sizeSection">
+                <label for="size">Size:</label>
+                <select name="size" class="size">
+                    <option value="M">M</option>
+                </select>
+            </section>
+
+            <section class="designSection">
+                <label for="design">Design:</label>
+                <select name="design" class="design">
+                    <option value="design">Select Theme</option>
+                </select>
+            </section>
+        </section>
+        <section class="colorSection">
+            <label for="color">Color:</label>
+            <select name="color" class="color">
+                <option value="color">Select a design theme above</option>
+            </select>
+        </section>
+
+
+    </div>
+
+    <h1 class="activities">Register for Activities *</h1>
+    <div class="container-activies">
+
+
+        <section class="regactivities">
+            <div class="conference">
+                <section class="conf">
+                    <label for="conference">Main Conference</label>
+                    <input type="checkbox" name="conference" class="inptConference">
+                </section>
+                <section class="javascript">
+                    <img src="images/js.svg" class="jsimg" name="jsimg">
+                    <p class="jsprice">200$</p>
+                </section>
+            </div>
+        </section>
+
+        <section class="libraries">
+            <section class="conf-react">
+                <label for="conference">Javascript Libraries Workshop</label>
+                <input type="checkbox" name="conference" class="inptConference">
+                <p class="library-date">Tuesday 9am-12pm</p>
+            </section>
+
+            <section class="react">
+                <img src="images/react.svg" class="jsimg" name="jsimg">
+                <p class="jsprice">100$</p>
+            </section>
+        </section>
+
+        <section class="frameworks">
+            <section class="conf-angular">
+                <label for="angular">Javascript Frameworks Workshop</label>
+                <input type="checkbox" name="angularimg" class="inptAngular">
+                <p class="angular-date">Tuesday 9am-12pm</p>
+            </section>
+
+            <section class="angular">
+                <img src="images/angular.svg" class="reactimg" name="jsimg">
+                <p class="jsprice">100$</p>
+            </section>
+        </section>
+
+
+        <section class="npm-workshop">
+            <section class="workshop">
+                <label for="npm">npm Workshop</label>
+                <input type="checkbox" name="npm" class="inptNpm">
+                <p class="npm-date">Wednesday 9am-12pm</p>
+            </section>
+
+            <section class="npm">
+                <img src="images/npm.svg" class="npmimg" name="jsimg">
+                <p class="jsprice">100$</p>
+            </section>
+        </section>
+
+
+        <section class="node-workshop">
+            <section class="nodeworkshop">
+                <label for="node">Node.js Workshop</label>
+                <input type="checkbox" name="node" class="inptNode">
+                <p class="node-date"> Tuesday 1pm-4pm</p>
+            </section>
+
+            <section class="node">
+                <img src="images/node.svg" class="jsimg" name="nodeimg">
+                <p class="jsprice">100$</p>
+            </section>
+        </section>
+
+        <section class="build-tools">
+            <section class="build-tools-workshop">
+                <label for="build">Build tools Workshop</label>
+                <input type="checkbox" name="build" class="inptBuild">
+                <p class="build-date"> Tuesday 1pm-4pm</p>
+            </section>
+
+            <section class="build">
+                <img src="images/build.svg" class="jsimg" name="buildimg">
+                <p class="jsprice">100$</p>
+            </section>
+        </section>
+
+        <section class="express-workshop">
+            <section class="build-tools-workshop">
+                <label for="build">Express Workshop</label>
+                <input type="checkbox" name="build" class="inptBuild">
+                <p class="build-date"> Wednesday 1pm-4pm</p>
+            </section>
+
+            <section class="build">
+                <img src="images/express.svg" class="jsimg" name="buildimg">
+                <p class="jsprice">100$</p>
+            </section>
+        </section>
+
+
+    </div>
+
+    <section class="payment">
+        <h1>Payment Info</h1>
+        <h1>Total: $0</h1>
+    </section>
+</body>
+
+</html>
