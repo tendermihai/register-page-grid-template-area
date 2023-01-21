@@ -174,7 +174,7 @@ input {
 .workshop {
   padding: 10px;
   display: flex;
-  flex-direction: row;
+  flex-direction: row-reverse;
 }
 
 .node-workshop {
@@ -191,6 +191,11 @@ input {
   padding: 10px;
 }
 
+.nodeworkshop {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
 .build-tools {
   background-color: white;
   height: 75px;
@@ -199,6 +204,11 @@ input {
   display: flex;
   flex-direction: row;
   gap: 100px;
+}
+
+.build-tools-workshop {
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 .build {
@@ -217,6 +227,11 @@ input {
   display: flex;
   flex-direction: row;
   gap: 100px;
+}
+
+.build-tools-workshop {
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 .container-activies {
